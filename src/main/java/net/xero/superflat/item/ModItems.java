@@ -13,11 +13,11 @@ import net.minecraft.item.Item;
 public class ModItems {
 
     public static final Item END_STRING = registerItem("end_string", new Item(new FabricItemSettings()));
-    public static final Item SPAWNER_CORE = registerItem("spawner_core", new Item(new FabricItemSettings()));
+    public static final Item BLANK_TEMPLATE = registerItem("blank_template", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(END_STRING);
-        entries.add(SPAWNER_CORE);
+        entries.add(BLANK_TEMPLATE);
     }
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(SuperflatRecipes.MOD_ID, name), item);

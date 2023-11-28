@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "S": {
+      "item": "minecraft:shulker_shell"
+    },
+    "E": {
+      "item": "superflatrecipes:end_string"
+    }
+  },
+  "pattern": [
+    "#E#",
+    "#S#",
+    "#S#"
+  ],
+  "result": {
+    "count": 1,
+    "item": "minecraft:elytra"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "C": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "DC",
+    "CD"
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:gravel"
+  },
+  "show_notification": true
+}
